@@ -14,11 +14,11 @@ $ pip install -r requirements.txt
 ```
 
 ## Example Run
-List_of_addresse = []
-#create a class image
-class_copy = censusTractLabel(List_of_addresse)
-# run the method
-output = class_copy.census_tract_addresses()
-# the process the output list as you wish
+List_of_addresse = []  
+#create a class image  
+class_copy = censusTractLabel(List_of_addresse)  
+#run the method  
+output = class_copy.census_tract_addresses()  
+#the process the output list as you wish  
 ```
 
