@@ -91,7 +91,7 @@ class censusTractLabel:
 
     def geocode_addresses(self, addresses_list):
         URL_LIST = self.list_of_urls_census(addresses_list)
-        run = asyncio.get_event_loop().run_until_complete(self.main_census(URL_LIST))
+        run = asyncio.new_event_loop().run_until_complete(self.main_census(URL_LIST))
         return run
 
     def geocode_address(self):
@@ -190,7 +190,7 @@ class censusTractLabel:
         return results
 
     def census_tract_addresses(self):
-        run = asyncio.get_event_loop().run_until_complete(self.main(self.geocode_address()))
+        run = asyncio.new_event_loop().run_until_complete(self.main(self.geocode_address()))
         return run
 
 
