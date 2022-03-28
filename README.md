@@ -54,3 +54,10 @@ block	:	2016
 FIPS	:	100010413002016
 GEOID	:	10001041300
 ```
+
+### Deployment
+The develoopment app is deployed at http://tractlabels.azurewebsites.net/
+
+It may take time to start-up the instance.
+
+Queries like this works: http://tractlabels.azurewebsites.net/tracts?address=411%20Legislative%20Ave,%20Dover,%20DE
