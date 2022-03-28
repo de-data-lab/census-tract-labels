@@ -44,8 +44,8 @@ The results will look like this:
 ```
 input addresses	:	411 Legislative Ave, Dover, DE
 matched addresses	:	411 LEGISLATIVE AVE, DOVER, DE, 19901
-lot	:	39.157505
-lat	:	-75.52055
+lat	:	39.157505
+lon	:	-75.52055
 state	:	DE
 county	:	Kent County
 census tract	:	041300
