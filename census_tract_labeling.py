@@ -163,8 +163,8 @@ class censusTractLabel:
 
                     output = {'input addresses': input_address,
                               'matched addresses': geocodded_addrese,
-                              'lot': lat,
-                              'lat': lon,
+                              'lat': lat,
+                              'lon': lon,
                               'state': data['State']['code'],
                               'county': data['County']['name'],
                               'census tract': Census_Tract,
