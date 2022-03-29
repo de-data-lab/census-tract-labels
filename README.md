@@ -44,8 +44,8 @@ The results will look like this:
 ```
 input addresses	:	411 Legislative Ave, Dover, DE
 matched addresses	:	411 LEGISLATIVE AVE, DOVER, DE, 19901
-lot	:	39.157505
-lat	:	-75.52055
+lat	:	39.157505
+lon	:	-75.52055
 state	:	DE
 county	:	Kent County
 census tract	:	041300
@@ -54,3 +54,10 @@ block	:	2016
 FIPS	:	100010413002016
 GEOID	:	10001041300
 ```
+
+### Deployment
+The develoopment app is deployed at http://tractlabels.azurewebsites.net/
+
+It may take time to start-up the instance.
+
+Queries like this works: http://tractlabels.azurewebsites.net/tracts?address=411%20Legislative%20Ave,%20Dover,%20DE
